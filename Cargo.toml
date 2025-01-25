@@ -1,0 +1,14 @@
+[package]
+name = "unraid_backup_util"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macaddr = { version = "1.0.1", features = ["serde_std"] }
+once_cell = "1.20.2"
+pnet = "0.35.0"
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.137"
+unraid-notification = "0.1.1"
+wol-rs = "1.1.0"
+

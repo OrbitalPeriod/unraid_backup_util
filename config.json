@@ -1,0 +1,10 @@
+{
+  "mac_address": [0,0,0,0,0,0],
+  "shutdown" : false,
+  "user" : "rsync",
+  "hostname" : "host",
+  "options": ["-avq", "--delete"],
+  "jobs": [
+      { "source" : "source", "destination" : "destination" }
+      ]
+}
